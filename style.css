@@ -247,3 +247,51 @@ transition:.3s;
 border-color:#ff2020;
 transform:translateY(-6px);
 }
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+}
+
+.logo h1{
+    margin:0;
+    color:#fff;
+    font-size:32px;
+    font-weight:700;
+}
+
+.logo p{
+    margin:0;
+    color:#ccc;
+    font-size:14px;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 40px;
+    background:#111;
+}
+
+.navbar ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.navbar a:hover{
+    color:#ff1e1e;
+}
