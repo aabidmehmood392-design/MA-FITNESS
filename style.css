@@ -295,3 +295,40 @@ transform:translateY(-6px);
 .navbar a:hover{
     color:#ff1e1e;
 }
+.hero{
+    background:url("images/hero.jpg") center/cover no-repeat;
+    min-height:600px;
+    display:flex;
+    align-items:center;
+    padding:60px;
+    color:white;
+}
+
+.hero-content{
+    max-width:600px;
+}
+
+.hero h2{
+    font-size:70px;
+    margin:0;
+    line-height:1;
+}
+
+.hero h2 span{
+    color:#ff1e1e;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    background:#ff1e1e;
+    color:white;
+    padding:15px 35px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
